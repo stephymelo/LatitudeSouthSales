@@ -1,35 +1,45 @@
 .nav {
-	position: sticky;
-	display: flex;
+    z-index: 1;
+    position: sticky;
+    display: flex;
     flex-direction: row;
-	justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
-	height: 60px;
-	top: 0;
-    margin-right:80px;
-    margin-left:60px;
-    margin-top:40px;
+    height: 60px;
+    top: 0;
+    margin-right: 80px;
+    margin-left: 60px;
+    padding-top: 40px;
 
-    &__logo{
-        width:60%;
+    &__logo {
+        width: 60%;
     }
 
-
-    &__list{
+    &__list {
         display: flex;
         flex-direction: row;
     }
 
-    &__link{
+    &__link {
         text-decoration: none;
-        color:$green;
-        padding-left:20px;
-        
-       
-     
+        color: $green;
+        margin-left: 20px;
+        position: relative;
+        :after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: $orange;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        :hover:after {
+            width: 100%;
+            left: 0;
+        }
     }
 }
-
-
-
-

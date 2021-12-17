@@ -1,6 +1,7 @@
 
 span{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Gill sans', sans-serif;
+    font-weight: 100;
     font-size:18px;
 
 }
@@ -11,17 +12,34 @@ span{
 h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size:30px;
+    font-size:35px;
 }
 
 h2{
-    font-family: 'Raleway',sans-serif;
-    font-weight: 500;
+    color:$secondary;
+    font-family: 'Gill sans',sans-serif;
+    font-weight: 600;
+    font-size:18px;
 
 }
 
 p{
-    font-family: 'Raleway',sans-serif;
-    font-weight: 500;
+    color: $principal;
+    font-family: 'Gill sans',sans-serif;
+    font-weight: 400;
 
+}
+
+h5{
+    font-family: 'Gill sans', sans-serif;
+    font-weight: 500;
+    color:$offwhite;
+    font-size: 20px;
+
+}
+h6{
+    font-family: 'Gill sans', sans-serif;
+    font-weight: 500;
+    color:$offwhite;
+    font-size: 18px;
 }

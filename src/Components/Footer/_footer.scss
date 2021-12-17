@@ -1,5 +1,67 @@
 .footer{
-    height:300px;
+    height:220px;
     width:100%;
     background-color: #828387;
+
+    &__article{
+        padding-top:30px;
+        display: flex;
+        flex-direction: row;
+       
+        &--1{
+            
+            margin-left:120px;
+            width:25%;
+            img{
+                
+                width:50%;
+            }
+        }
+
+        &--2{
+            
+
+            .footer__icons{
+                margin-top:30px;
+            }
+
+            .footer__icon{
+                margin-left:10px;
+            }
+
+            p{
+                padding-top:20px;
+                line-height: 25px;
+                font-weight: 200;
+                font-size:15px;
+                color:$offwhite;
+            }
+
+
+        }
+
+        &--3{
+
+            margin-left:180px;
+            h6{
+                padding-top:10px;
+            }
+            
+            p{
+                padding-top:10px;
+                font-family: Gill sans,sans-serif;
+                font-weight: 200;
+                color:$offwhite;
+            }
+        }
+
+        
+    }
+    .copyright{
+        margin-top:2em;
+        text-align: center;
+        font-size:10px;
+        color:$offwhite;
+        font-weight: 200;
+    }
 }

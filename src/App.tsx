@@ -16,6 +16,7 @@ import {
   useNavigate,
   useLocation
 } from "react-router-dom";
+import { Footer } from './Components/Footer/Footer';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           </Route>
         </Routes>
       </HashRouter>
+      <Footer/>
 
     </div>
   )
