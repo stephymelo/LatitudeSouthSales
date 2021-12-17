@@ -99,13 +99,13 @@ button {
   background-color: #FFB783;
   color: #225749;
   padding: 15px;
-  font-size: 16px;
+  font-family: Gill Sans, sans-serif;
+  font-size: 18px;
   color: #FBF3E7;
   border-style: none;
 }
 
 .nav {
-  z-index: 1;
   position: -webkit-sticky;
   position: sticky;
   display: -webkit-box;
@@ -125,7 +125,7 @@ button {
   top: 0;
   margin-right: 80px;
   margin-left: 60px;
-  padding-top: 40px;
+  padding-top: 45px;
 }
 
 .nav__logo {
@@ -234,7 +234,7 @@ button {
 }
 
 .landing {
-  padding-top: 1.5em;
+  padding-top: 1.7em;
 }
 
 .landing__article--1 {
