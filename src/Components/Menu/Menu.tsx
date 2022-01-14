@@ -15,7 +15,8 @@ export const Menu: React.FC<Menu> = () => {
                 <img className="nav__logo" src={logo}/>
             </div>
             <ul className="nav__list">
-                <li className="nav__item"><Link className="nav__link" to="/"><span className="nav__title">About us</span></Link></li>
+                <li className="nav__item"><Link className="nav__link" to="/"><span className="nav__title">Home</span></Link></li>
+                <li className="nav__item"><Link className="nav__link" to="about"><span className="nav__title">About us</span></Link></li>
                 <li className="nav__item"><Link className="nav__link" to="approach"><span className="nav__title">Approach</span></Link></li>
                 <li className="nav__item"><Link className="nav__link" to="brands"><span className="nav__title">Brands</span></Link></li>
                 <li className="nav__item"><Link className="nav__link" to="contact"><span className="nav__title">Contact</span></Link></li>

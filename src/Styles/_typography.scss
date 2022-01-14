@@ -6,10 +6,8 @@ span{
 
 }
 
-
-
-
 h1{
+    color:$secondary_complement;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size:35px;
@@ -29,7 +27,13 @@ p{
     font-weight: 400;
 
 }
-
+li{
+        color: $principal;
+        font-family: 'Gill sans',sans-serif;
+        font-weight: 400;
+    
+    
+}
 h5{
     font-family: 'Gill sans', sans-serif;
     font-weight: 500;
