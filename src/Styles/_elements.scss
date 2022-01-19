@@ -7,10 +7,37 @@ button{
     font-size:18px;
     color:$offwhite;
     border-style: none;
+    &:after{
+        background-color: blue;
+
+    }
+
+    &:active:after{
+        background-color: blue;
+
+    }
+
+    &:hover{
+        transition: 1s ease-in-out;
+        background-color: $secondary_complement;
+
+    }
+
+   
 }
 
 hr{
     width: 70%;
     margin-left:0px;
     border: 1px solid $secondary;
+}
+
+input{
+    border-color: #79B3A6;
+    border-style: solid;
+    border-radius: 10px;
+    padding:0.3em;
+    min-height: 3em;
+    width: 100%;
+
 }

@@ -1,0 +1,60 @@
+.approach {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    margin-top: 5em;
+    padding-left: 10em;
+    position: relative;
+    &--1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        .infocard {
+            width:55%;
+            .title {
+                line-height: 1.5em;
+            }
+            .subtitle {
+                color: $principal;
+                margin-top: 2em;
+                font-weight: 500;
+                width:90%;
+            }
+        }
+        .infophoto{
+            margin-left:5em;
+           
+            width:45%;
+        }
+    }
+    &--2 {
+        margin-top:5em;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+      
+        
+
+        .subsubtitle{
+           
+        
+
+            &__line{
+                width:40%;
+            }
+
+           
+        }
+
+        .listapproach{
+            margin-top:4em;
+            display: flex;
+            flex-direction: row;
+
+            &__li{
+                width:50%;
+            }
+        }
+
+    }
+}
