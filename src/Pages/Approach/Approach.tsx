@@ -1,11 +1,38 @@
 import * as React from 'react';
-import photo from "../../Resources/gallery1.png"
+import photo from "../../Resources/gallery1.png";
+import ImageGallery from 'react-image-gallery';
+
 
 
 interface Approach {
 }
 
 export const Approach: React.FC<Approach> = () => {
+
+    const images = [
+        {
+            original: 'src/Resources/Gallery/1.png',
+            thumbnail: 'src/Resources/Gallery/1.png',
+        },
+        {
+            original: 'src/Resources/Gallery/2.png',
+            thumbnail: 'src/Resources/Gallery/2.png',
+        },
+        {
+            original: 'src/Resources/Gallery/3.png',
+            thumbnail: 'src/Resources/Gallery/3.png',
+        },
+        {
+            original: 'src/Resources/Gallery/4.png',
+            thumbnail: 'src/Resources/Gallery/4.png',
+        },
+        {
+            original: 'src/Resources/Gallery/5.png',
+            thumbnail: 'src/Resources/Gallery/5.png',
+        },
+
+
+    ];
     return (
         <section className='approach'>
             <article className='approach--1'>
@@ -68,6 +95,13 @@ export const Approach: React.FC<Approach> = () => {
 
                 </ul>
 
+            </article>
+
+            <h1>Gallery</h1>
+            <hr></hr>
+            <article className='approach--3'>
+                
+                <ImageGallery items={images}  autoPlay={true} showPlayButton={false} showFullscreenButton={false}/>
             </article>
         </section>
     );

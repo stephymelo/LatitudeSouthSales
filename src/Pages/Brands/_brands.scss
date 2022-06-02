@@ -1,0 +1,68 @@
+.brands {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    margin-top: 5em;
+    padding-left: 10em;
+    position: relative;
+
+
+    &__info{
+        .subtitle{
+            margin-top:2em;
+            color:$principal;
+            font-weight: 500;
+        }
+    }
+
+    &__images {
+        margin-top:3em;
+        margin-left: 6.5em;
+        width: 90%;
+
+        &--1 {
+            align-content: center;
+            align-items: center;
+            .img {
+                width: 22%;
+                margin-right: 6em;
+                height: 100%;
+            }
+            .cuccio{
+                margin-bottom: 2.3em;
+                width:20%;
+            }
+            .body{
+                margin-bottom:2em;
+            }
+            .style {
+               margin-left:0.8em;
+            }
+        }
+        &--2 {
+            margin-top: 3em;
+            align-items: center;
+            align-content: center;
+            .img {
+                width: 22%;
+                margin-right: 6em;
+                height: 100%;
+            }
+            .gamma{
+                margin-bottom: 2.5em;
+            }
+        }
+        &--3 {
+            margin-top: 6em;
+            align-items: center;
+            justify-content: baseline;
+            .img {
+                width: 22%;
+                margin-right: 6em;
+                height: 100%;
+            }
+        }
+
+        
+    }
+}
