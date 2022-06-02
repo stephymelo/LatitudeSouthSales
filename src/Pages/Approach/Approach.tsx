@@ -11,24 +11,24 @@ export const Approach: React.FC<Approach> = () => {
 
     const images = [
         {
-            original: 'src/Resources/Gallery/1.png',
-            thumbnail: 'src/Resources/Gallery/1.png',
+            original: './src/Resources/Gallery/1.png',
+            thumbnail: './src/Resources/Gallery/1.png',
         },
         {
-            original: 'src/Resources/Gallery/2.png',
-            thumbnail: 'src/Resources/Gallery/2.png',
+            original: './src/Resources/Gallery/2.png',
+            thumbnail: './src/Resources/Gallery/2.png',
         },
         {
-            original: 'src/Resources/Gallery/3.png',
-            thumbnail: 'src/Resources/Gallery/3.png',
+            original: './src/Resources/Gallery/3.png',
+            thumbnail: './src/Resources/Gallery/3.png',
         },
         {
-            original: 'src/Resources/Gallery/4.png',
-            thumbnail: 'src/Resources/Gallery/4.png',
+            original: './src/Resources/Gallery/4.png',
+            thumbnail: './src/Resources/Gallery/4.png',
         },
         {
-            original: 'src/Resources/Gallery/5.png',
-            thumbnail: 'src/Resources/Gallery/5.png',
+            original: './src/Resources/Gallery/5.png',
+            thumbnail: './src/Resources/Gallery/5.png',
         },
 
 
