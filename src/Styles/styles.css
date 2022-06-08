@@ -659,6 +659,45 @@ input {
   margin-bottom: 3em;
 }
 
+.approach .image-gallery .image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(80vh - 80px);
+}
+
+.gallery-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.gallery-list {
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item {
+  width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .brands {
   width: 100%;
   min-height: 100vh;

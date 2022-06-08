@@ -34,7 +34,7 @@ export const Landing: React.FC<Landing> = () => {
                         </svg>
                         <h2>Manufacturer Representation</h2>
                         <p>
-                            Latitude has been representing manufacturerer for over 3 decades and has taken the act of representing to a new level. We build partnerships between the brand and the distributor and we also have new brand partners that will attest to the success we have created.
+                        Latitude has been representing manufacturers for over 3 decades and has taken the act of representing to a new level. We build partnerships between the brand and the distributor, and we also have new brand partners that will attest to the success we have created
                         </p>
                     </li>
                     <li>

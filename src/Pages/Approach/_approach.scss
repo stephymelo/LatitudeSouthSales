@@ -55,6 +55,15 @@
         margin-top:3em;
         margin-left:-10em;
         margin-bottom: 3em;
+      
      
     }
+    .image-gallery{
+        .image-gallery-content .image-gallery-slide .image-gallery-image{
+            max-height: calc(80vh - 80px);
+    
+        }
+
+    }
+   
 }

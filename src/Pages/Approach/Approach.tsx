@@ -1,6 +1,8 @@
 import * as React from 'react';
 import photo from "../../Resources/gallery1.png";
 import ImageGallery from 'react-image-gallery';
+import photo1 from "../../Resources/Gallery/1.png"
+import { Gallery } from './Gallery/Gallery';
 
 
 
@@ -11,24 +13,24 @@ export const Approach: React.FC<Approach> = () => {
 
     const images = [
         {
-            original: './src/Resources/Gallery/1.png',
-            thumbnail: './src/Resources/Gallery/1.png',
+            original: 'https://github.com/stephymelo/LatitudeSouthSales/blob/main/src/Resources/Gallery/2.png?raw=true',
+            thumbnail: 'https://github.com/stephymelo/LatitudeSouthSales/blob/main/src/Resources/Gallery/2.png?raw=true',
         },
         {
-            original: './src/Resources/Gallery/2.png',
-            thumbnail: './src/Resources/Gallery/2.png',
+            original: 'https://github.com/stephymelo/LatitudeSouthSales/blob/main/src/Resources/Gallery/1.png?raw=true',
+            thumbnail: 'https://github.com/stephymelo/LatitudeSouthSales/blob/main/src/Resources/Gallery/1.png?raw=true',
         },
         {
-            original: './src/Resources/Gallery/3.png',
-            thumbnail: './src/Resources/Gallery/3.png',
+            original: 'https://github.com/stephymelo/LatitudeSouthSales/blob/main/src/Resources/Gallery/3.png?raw=true',
+            thumbnail: 'https://github.com/stephymelo/LatitudeSouthSales/blob/main/src/Resources/Gallery/3.png?raw=true',
         },
         {
-            original: './src/Resources/Gallery/4.png',
-            thumbnail: './src/Resources/Gallery/4.png',
+            original: 'https://github.com/stephymelo/LatitudeSouthSales/blob/main/src/Resources/Gallery/4.png?raw=true',
+            thumbnail: 'https://github.com/stephymelo/LatitudeSouthSales/blob/main/src/Resources/Gallery/4.png?raw=true',
         },
         {
-            original: './src/Resources/Gallery/5.png',
-            thumbnail: './src/Resources/Gallery/5.png',
+            original: 'https://github.com/stephymelo/LatitudeSouthSales/blob/main/src/Resources/Gallery/5.png?raw=true',
+            thumbnail: 'https://github.com/stephymelo/LatitudeSouthSales/blob/main/src/Resources/Gallery/5.png?raw=true',
         },
 
 
@@ -101,7 +103,8 @@ export const Approach: React.FC<Approach> = () => {
             <hr></hr>
             <article className='approach--3'>
                 
-                <ImageGallery items={images}  autoPlay={true} showPlayButton={false} showFullscreenButton={false}/>
+                
+                <ImageGallery items={images}  autoPlay={true} showPlayButton={false} showFullscreenButton={true}/>
             </article>
         </section>
     );
